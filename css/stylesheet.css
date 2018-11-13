@@ -8,46 +8,61 @@ header {
   margin-top: -25px;
   margin-left: -20px;
   margin-right: -20px;
+  padding-bottom: 50px;
   padding-top: 50px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   height: auto;
   width:auto;
   text-align: center;
 }
 
 header h1 {
-color: black;
+  color: #051D35;
 }
 
 header h2 {
-
+  color: #051D35
 }
 
 nav {
   text-align: center;
-  background-color: white;
+  background-color: #051D35;
   margin-top: -20px;
   margin-left: -20px;
   margin-right: -20px;
-  padding-top: 50px;
+  padding-top: 1px;
+  height: 55px;
+}
+
+nav ul {
+
 }
 
 nav li {
 display: inline-block;
 list-style-type: none;
+
 }
 
 nav a {
+  display: block;
   text-decoration: none;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 20px;
+  color: white;
+}
+
+.active{
+  display: inline-block;
+  color: #21B7EA;
+
 }
 
 div {
   text-align: center;
   margin: 50px 250px 0px 250px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 p {
@@ -55,6 +70,7 @@ p {
   padding-right: 10px;
   padding-top: 60px;
   font-size: 20px;
+  color: #051D35;
 }
 
 .brain_areas {
@@ -81,4 +97,9 @@ ul {
 li {
   font-size: 20px;
   padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #0B67B2;
 }
