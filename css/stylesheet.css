@@ -61,17 +61,25 @@ nav a {
 
 div {
   text-align: center;
-  margin: 50px 250px 0px 250px;
+  margin: 50px 250px 50px 250px;
   background-color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 20px;
 }
 
 p {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 60px;
+  margin: 20px;
   font-size: 20px;
   color: #051D35;
 }
+
+.introduction{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  font-size: 20px;
+  color: #051D35;
+}
+
 
 .brain_areas {
   display: inline-block;
@@ -102,4 +110,47 @@ li {
 a {
   text-decoration: none;
   color: #0B67B2;
+}
+
+h1{
+  text-align: center;
+  color: #051D35;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+  color: #051D35;
+}
+
+h3{
+  padding: 20px;
+  text-align: center;
+  color: #051D35;
+}
+
+.frontal-lobe {
+  float: right;
+  height:300px;
+  width:350px;
+  margin:10px;
+}
+
+.stroop-vid{
+  float: right;
+  display: inline-block;
+  position: relative;
+  bottom: 300px;
+  right:20px;
+
+}
+
+
+
+}
+
+.stroop-task{
+display: block;
+height:400px;
+width:600px;
 }
