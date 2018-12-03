@@ -3,35 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>Brain-Boggling: Glossary</title>
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/stylesheet.css"> -->
   </head>
   <body>
-    <header>
-      <h1>That's Brain-Boggling!</h1>
-      <h2>A simple but informative site about the brain</h2>
-    </header>
-    <nav>
-      <ul>
-        <li><a href = "index.html">Home</a></li>
-        <li><a href = "Frontal_Lobe.html">Frontal Lobe</a></li>
-        <li><a href = "Parietal_Lobe.html">Parietal Lobe</a></li>
-        <li><a href = "Temporal_Lobe.html">Temporal Lobe</a></li>
-        <li><a href = "Occipital_Lobe.html">Occipital Lobe</a></li>
-        <li><a href = "Other_Areas.html">Other important areas</a></li>
-        <li><a class = "active" href = "Glossary.html">Glossary</a></li>
-        <li><a href = "Contact_Me.html">Contact Me</a></li>
-      </ul>
-    </nav>
+    <div class="jumbotron">
+      <h1 class="display-3 text-center">That's Brain-Boggling!</h1>
+      <p class="lead text-center">A simple but informative site about the brain</p>
+    </div>
+    <div class="container">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Frontal_Lobe.html">Frontal Lobe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Parietal_Lobe.html">Parietal Lobe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Temporal_Lobe.html">Temporal Lobe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Occipital_Lobe.html">Occipital Lobe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href = "Other_Areas.html">Other important areas</a></li>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href = "Glossary.html">Glossary <span class="sr-only">(current)</span></a></li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href = "Contact_Me.html">Contact Me</a></li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div>
       <p>Here is a glossary of technical terms used in this website and what they mean.
         <ul>
           <li id="Cerebral-Cortex">Cerebral Cortex - The outermost layer of the brain.</li>
           <li id="Cognitive-planning">Cognitive Planning - A mental process that allows us to choose the correct actions to achieve a goal, decide the correct sequence of actions, allocate tasks to different parts of the brain,</li>
-          <li id="Corpus-collosum">Corpus Collosum - A bunch of nerve fibers which connect the right and left hemipsheres of the brain.</li>
-          <li id="Hemispheres">Hemipsheres - Halves of the brain. The brain has a left and a right hemisphere.</li>
+          <li id="Corpus-collosum">Corpus Collosum - A bunch of nerve fibres which connect the right and left hemispheres of the brain.</li>
+          <li id="Hemispheres">Hemispheres - Halves of the brain. The brain has a left and a right hemisphere.</li>
           <li id="lesions">Lesions - Areas of the brain which are injured.</li>
-          <li id="Neurons">Neurons - Also known as nerve cells, neurons send and recieve chemical and electrical signals from the brain. <img class = "neuron" src="../images/neuron.jpg" alt="This is a neuron"></li>
-          <li id="PET"> PET - Acroym for Positron Emission Tomography, it is a type of brain scan technique.
+          <li id="Neurons">Neurons - Also known as nerve cells, neurons send and receive chemical and electrical signals from the brain. <img class = "neuron" src="../images/neuron.jpg" alt="This is a neuron"></li>
+          <li id="PET"> PET - Acronym for Positron Emission Tomography, it is a type of brain scan technique.
           <li id="Primary-visual-cortex"></li>
           <li id="stimuli">Stimuli - Things or events that can trigger a specific reaction.</li>
           <li id="V2"></li>

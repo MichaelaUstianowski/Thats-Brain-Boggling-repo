@@ -3,49 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title> That's Brain-Boggling: Home</title>
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="../javascript/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <header>
-      <h1>That's Brain-Boggling!</h1>
-      <h2>A simple but informative site about the brain</h2>
-    </header>
-    <nav>
-      <ul>
-        <li><a class = "active" href = "index.html">Home</a></li>
-        <li><a href = "Frontal_Lobe.html">Frontal Lobe</a></li>
-        <li><a href = "Parietal_Lobe.html">Parietal Lobe</a></li>
-        <li><a href = "Temporal_Lobe.html">Temporal Lobe</a></li>
-        <li><a href = "Occipital_Lobe.html">Occipital Lobe</a></li>
-        <li><a href = "Other_Areas.html">Other important areas</a></li>
-        <li><a href = "Glossary.html">Glossary</a></li>
-        <li><a href = "Contact_Me.html">Contact Me</a></li>
-      </ul>
-    </nav>
-  <div>
-      <p class="introduction">
-        The brain is made of cells called <a href = "Glossary.html#Neurons">neurons</a> which send electrical messages all over the brain. The <a href = "Glossary.html#Cerebral-Cortex">cerebral cortex</a> has two <a href = "Glossary.html#Hemispheres">hemispheres</a> and four areas which are responsible for different processes. Hover over the brain to find out the names of these areas.
-          <ul class = "brain_areas">
-            <li>The Frontal Lobe</li>
-            <li>The Parietal Lobe</li>
-            <li>The Temporal Lobe</li>
-            <li>The Occipital Lobe</li>
-          </ul>
-          <img class = "brain" src="../images/brain.jpg" alt="This is a brain">
-      </p>
-      <p>The hemispheres of the brain are associated with different functions. For example, the left side is more associated with language, logic and reasoning but the right is more associated with creativity. Even more weirdly, the left side of the brain controls the actions of the right side of the body, whereas the right side of the brain controls the movements of your left side of the body. Depsite the idea of being right or left brained, we use both halves in connection. The hemipshere are connected by a colelction nerve fibers called the <a href="Glossary.html#Corpus-collosum">Corpus Collosum</a> which allows messages to be passed to each hemipshere. The video below is about a patient who had had his corpus colosum cut, due to his severe epilepsy. It provides a quite interesting insight into how each hemisphere functions separately.
-      </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lfGwsAdS9Dc"></iframe>
+    <div class="jumbotron">
+      <h1 class="display-3 text-center">That's Brain-Boggling!</h1>
+      <p class="lead text-center">A simple but informative site about the brain</p>
     </div>
-
-    <!-- <div>
-    <h3>Fun Facts</h3>
-      <p>
-        <ul>
-          <li>There are as many neurons in the human brain as there are stars in our Galaxy.</li>
-          <li>An adult human brain weighs around 1.4kg.</li>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Frontal_Lobe.html">Frontal Lobe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Parietal_Lobe.html">Parietal Lobe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Temporal_Lobe.html">Temporal Lobe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Occipital_Lobe.html">Occipital Lobe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "Other_Areas.html">Other important areas</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "Glossary.html">Glossary</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "Contact_Me.html">Contact Me</a></li>
+          </li>
         </ul>
-      </p>
-    </div> -->
+      </div>
+    </nav>
+    <div class="container py-5">
+    <p class="lead">
+      The brain is made of cells called <a href = "Glossary.html#Neurons">neurons</a> which send electrical messages all over the brain. The <a href = "Glossary.html#Cerebral-Cortex">cerebral cortex</a> has two <a href = "Glossary.html#Hemispheres">hemispheres</a> and four areas which are responsible for different processes. Hover over the brain to find out the names of these areas.
+    </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+            <img class = "img-fluid" src="../images/brain.jpg" alt="This is a brain">
+        </div>
+        <div class="col-4">
+            <ul>
+              <li>The Frontal Lobe</li>
+              <li>The Parietal Lobe</li>
+              <li>The Temporal Lobe</li>
+              <li>The Occipital Lobe</li>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col">
+          <h3>The left and right hemispheres</h3>
+          <p>
+            The hemispheres of the brain are associated with different functions. For example, the left side is more associated with language, logic and reasoning but the right is more associated with creativity. Even more weirdly, the left side of the brain controls the actions of the right side of the body, whereas the right side of the brain controls the movements of your left side of the body. Despite the idea of being right or left brained, we use both halves in connection. The hemispheres are connected by a colelction nerve fibers called the <a href="Glossary.html#Corpus-collosum">Corpus Collosum</a> which allows messages to be passed to each hemipshere. The video below is about a patient who had had his Corpus Collosum cut, due to his severe epilepsy. It provides a quite interesting insight into how each hemisphere functions separately.
+          </p>
+        </div>
+        <div class="col">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/lfGwsAdS9Dc"></iframe>
+        </div>
+    </div>
+    <script src="../javascript/scripts.js"></script>
   </body>
 </html>

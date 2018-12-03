@@ -3,37 +3,79 @@
   <head>
     <meta charset="utf-8">
     <title>Brain-Boggling: The Parietal Lobe</title>
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="../javascript/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="../css/stylesheet.css"> -->
   </head>
   <body>
-    <header>
-      <h1>That's Brain-Boggling!</h1>
-      <h2>A simple but informative site about the brain</h2>
-    </header>
-    <nav>
-      <ul>
-        <li><a href = "index.html">Home</a></li>
-        <li><a href = "Frontal_Lobe.html">Frontal Lobe</a></li>
-        <li><a href = "Parietal_Lobe.html">Parietal Lobe</a></li>
-        <li><a class = "active" href = "Temporal_Lobe.html">Temporal Lobe</a></li>
-        <li><a href = "Occipital_Lobe.html">Occipital Lobe</a></li>
-        <li><a href = "Other_Areas.html">Other important areas</a></li>
-        <li><a href = "Glossary.html">Glossary</a></li>
-        <li><a href = "Contact_Me.html">Contact Me</a></li>
-      </ul>
-    </nav>
-    <div>
-      <h2>The Temporal Lobe</h2>
-      <img src="../images/temporal-lobe.jpg" alt="this is a picture of the temporal lobe">
-        <p>The Temporal Lobe is home to the Pirmary Auditory Cortex, where auditory information is first processed. The Temporal Lobe is also involved with understanding language and is linked with object recognition (see the Occipital Lobe page for more information).
-        </p>
-          <h3>The Primary Auditory Cortex</h3>
-            <p>The Primary Auditory cortex is an area in the Temporal Lobe. It is the first area for auditory information to be processed and to be sent to different areas in order to be processed further. For example if you hear a word, the Primary Auditory cortex will recieve the information first, then to recognise the word meaning another area will be active to provide extra detail on what we heard.
-            </p>
-          <h3>Wernicke's Area</h3>
-            <p>This is an area in the Temporal lobe and is close to the parietal lobe. This area is involved with speech comprehension as people who have dammage to this area are known to have a disorder called Wernicke's Aphasia, where individuals struggle to understand speech. The video below summarises Werncke's area. 
-            </p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/03Xtiz_ikw4"></iframe>
+    <div class="jumbotron">
+      <h1 class="display-3 text-center">That's Brain-Boggling!</h1>
+      <p class="lead text-center">A simple but informative site about the brain</p>
     </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Frontal_Lobe.html">Frontal Lobe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Parietal_Lobe.html">Parietal Lobe</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Temporal_Lobe.html">Temporal Lobe<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Occipital_Lobe.html">Occipital Lobe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "Other_Areas.html">Other important areas</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "Glossary.html">Glossary</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "Contact_Me.html">Contact Me</a></li>
+          </li>
+        </ul>
+      </div>
+    </nav/>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col">
+          <h2>The Temporal Lobe</h2>
+            <p>The Temporal Lobe is home to the Primary Auditory Cortex, where auditory information is first processed. The Temporal Lobe is also involved with understanding language and is linked with object recognition (see the Occipital Lobe page for more information).
+            </p>
+          </div>
+          <div class="col">
+            <img src="../images/temporal-lobe.jpg" alt="this is a picture of the temporal lobe">
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5">
+        <h3>The Primary Auditory Cortex</h3>
+            <p>The Primary Auditory cortex is an area in the Temporal Lobe. It is the first area for auditory information from the ear is processed and is sent to different areas in order to be processed further. For example, if you hear a word, the Primary Auditory cortex will recieve the information first, then activate other areas to provide more detail such as word meaning.
+            </p>
+      </div>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <h3>Wernicke's Area</h3>
+              <p>This is an area in the Temporal lobe and is close to the parietal lobe. This area is involved with speech comprehension as people who have dammage to this area are known to have a disorder called Wernicke's Aphasia, where individuals struggle to understand speech. The video below summarises Werncke's area.
+              </p>
+          </div>
+          <div class="col">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/03Xtiz_ikw4"></iframe>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
