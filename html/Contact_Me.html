@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Brain-Boggling: FAQs</title>
+    <title>Brain-Boggling: Contact Me</title>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="../javascript/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="../css/stylesheet.css"> -->
-  </head>
+    <script src="../javascript/scripts.js"></script>
+    <script src="../javascript/bootstrap.bundle.min.js"></script>
   <body>
     <div class="jumbotron">
       <h1 class="display-3 text-center">That's Brain-Boggling!</h1>
@@ -38,16 +38,13 @@
           <li class="nav-item">
             <a class="nav-link" href = "Other_Areas.html">Other important areas</a></li>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href = "Glossary.html">Glossary</a></li>
-          </li>
           <li class="nav-item active">
             <a class="nav-link" href = "Contact_Me.html">Contact Me <span class="sr-only">(current)</span></a></li>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container pt-5">
+    <div class="container py-5">
       <h2>Contact Me</h2>
         <p>
           If you have any questions about the information on this website, please feel free to contact me by filling in the form below.
@@ -67,7 +64,7 @@
             <label for="inputQuestion">Question</label>
             <input type="text" class="form-control" id="inputQuestion" placeholder="Question">
           </div>
-          <button  class="btn btn-primary btn-lg btn-block" type="submit" value="submit" >Submit</button>
+          <button id="submit" class="btn btn-primary btn-lg btn-block" type="submit" value="submit" >Submit</button>
         </form>
     </div>
   </body>

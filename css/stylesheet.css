@@ -1,158 +1,116 @@
 
 
-/* body{
+body{
 background-image: url("../images/background.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-header {
-  margin-top: -25px;
-  margin-left: -20px;
-  margin-right: -20px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  background-color: rgba(255, 255, 255, 0.9);
-  height: auto;
-  width:auto;
+.container{
+  background-color: white;
+
+}
+
+/* gap between attention and next div */
+
+#four-lobes{
   text-align: center;
-}
-
-header h1 {
-  color: #051D35;
-}
-
-header h2 {
-  color: #051D35
-}
-
-nav {
-  text-align: center;
-  background-color: #051D35;
-  margin-top: -20px;
-  margin-left: -20px;
-  margin-right: -20px;
-  padding-top: 1px;
-  height: 55px;
-}
-
-nav ul {
 
 }
 
-nav li {
-display: inline-block;
-list-style-type: none;
-
-}
-
-nav a {
-  display: block;
-  text-decoration: none;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 20px;
-  color: white;
-}
-
-.active{
-  display: inline-block;
-  color: #21B7EA;
-
-}
-
-div {
-  text-align: center;
-  margin: 50px 250px 50px 250px;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding-bottom: 20px;
-}
-
-p {
-  margin: 20px;
-  font-size: 20px;
-  color: #051D35;
-}
-
-.introduction{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
-  font-size: 20px;
-  color: #051D35;
-}
-
-
-.brain_areas {
-  display: inline-block;
-}
-
-.brain_areas li {
-  position: relative;
-  right: 180px;
-  bottom: 150px;
-}
-
-.brain {
-  display: inline-block;
-  height: 500px;
-  width: 550px;
-  padding-top: 50px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  font-size: 20px;
-  padding-bottom: 50px;
-}
-
-a {
-  text-decoration: none;
-  color: #0B67B2;
-}
-
-h1{
-  text-align: center;
-  color: #051D35;
+h1 {
+  color:#051D35;
 }
 
 h2 {
-  padding: 20px;
-  text-align: center;
-  color: #051D35;
+  color:#051D35;
 }
 
-h3{
-  padding: 20px;
-  text-align: center;
-  color: #051D35;
+h3 {
+  color:#051D35;
 }
 
-.frontal-lobe {
-  float: right;
-  height:300px;
-  width:350px;
-  margin:10px;
+h4 {
+  color:#051D35;
 }
 
-.stroop-vid{
-  float: right;
-  display: inline-block;
-  position: relative;
-  bottom: 300px;
-  right:20px;
-
+p {
+  color:#051D35;
 }
 
+.display-3 {
+  color:#051D35;
+}
 
-
+.frontal-lobe{
+  width: 450px;
+  height: 350px;
 }
 
 .stroop-task{
-display: block;
-height:400px;
-width:600px;
-} */
+  width:550px;
+  height:350px;
+
+}
+
+.temporal-lobe{
+  width: 450px;
+  height: 350px;
+}
+
+.parietal-lobe{
+  width: 450px;
+  height: 350px;
+}
+
+.occipital-lobe{
+  width: 450px;
+  height: 350px;
+}
+
+.primary-visual-cortex{
+  width:600px;
+}
+
+.brainstem-cerebellum{
+  width: 500px;
+  height: 350px;
+
+}
+
+#submit {
+  background-color: #0B67B2;
+  border: 1px solid #0B67B2;
+  /* JS GREEN WHEN CLICKED */
+}
+
+#four-lobes{
+  width: 730px;
+  height: 520px;
+}
+
+
+#frontal-lobe-image{
+  width: 730px;
+  height: 520px;
+}
+
+#parietal-lobe-image{
+  width: 730px;
+  height: 520px;
+}
+
+#temporal-lobe-image{
+  width: 730px;
+  height: 520px;
+}
+
+#occipital-lobe-image{
+  width: 730px;
+  height: 520px;
+}
+
+  /* color: #0B67B2; */
+
+
+  /* color: #051D35; */
