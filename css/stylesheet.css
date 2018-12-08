@@ -11,8 +11,6 @@ background-size: cover;
 
 }
 
-/* gap between attention and next div */
-
 #four-lobes{
   text-align: center;
 
@@ -81,7 +79,6 @@ p {
 #submit {
   background-color: #0B67B2;
   border: 1px solid #0B67B2;
-  /* JS GREEN WHEN CLICKED */
 }
 
 #four-lobes{
@@ -110,7 +107,39 @@ p {
   height: 520px;
 }
 
+iframe{
+  width:560px;
+  height:315px;
+}
+
+/* .list-group{
+  position: relative;
+  left:100px;
+  top:150px;
+
+} */
+
+
   /* color: #0B67B2; */
 
 
   /* color: #051D35; */
+
+/* @media (max-width: 992px) {
+
+.list-group{
+
+align-content: center;
+
+}
+
+}
+
+@media (max-width: 767px) {
+
+iframe{
+  width: 100%;
+  height: auto;
+} */
+
+}

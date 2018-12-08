@@ -6,7 +6,7 @@ $(document).ready(function(){
 
   $("#frontal-lobe-button").hover(function(){
     $("#frontal-lobe-image").toggle()
-    $("#four-lobes").toggle();
+    $("#four-lobes").toggle()
   });
 
   $("#parietal-lobe-button").hover(function(){
@@ -75,5 +75,13 @@ $(function () {
 $(function () {
   $('#limbic-system').popover()
 });
+
+$("#submit").click(function(){
+        $("#submit").css("background-color", "#44d827");
+    });
+
+    $("#submit").click(function(){
+            $("#submit").css("border", "1px solid #44d827");
+        });
 
 });
