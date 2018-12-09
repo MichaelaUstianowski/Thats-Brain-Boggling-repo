@@ -6,14 +6,21 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+
+.jumbotron{
+  width:100%;
+  height:auto;
+}
+
 .container{
   background-color: white;
+  padding:20px;
 
 }
 
-#four-lobes{
+.display-3 {
+  color:#051D35;
   text-align: center;
-
 }
 
 h1 {
@@ -34,10 +41,7 @@ h4 {
 
 p {
   color:#051D35;
-}
-
-.display-3 {
-  color:#051D35;
+  font-size: 17px;
 }
 
 .frontal-lobe{
@@ -48,7 +52,8 @@ p {
 .stroop-task{
   width:550px;
   height:350px;
-
+  display: block;
+  margin: 0 auto;
 }
 
 .temporal-lobe{
@@ -76,6 +81,39 @@ p {
 
 }
 
+#frontal-lobe-button{
+  text-align: center;
+  width:220px;
+  display: block;
+  margin: 0 auto;
+}
+
+#parietal-lobe-button{
+  text-align: center;
+  width:220px;
+  display: block;
+  margin: 0 auto;
+}
+
+#temporal-lobe-button{
+  text-align: center;
+  width:220px;
+  display: block;
+  margin: 0 auto;
+}
+
+#occipital-lobe-button{
+  text-align: center;
+  width:220px;
+  display: block;
+  margin: 0 auto;
+}
+
+#primary-somatosensory-cortex{
+  width: 450px;
+  height: 350px;
+}
+
 #submit {
   background-color: #0B67B2;
   border: 1px solid #0B67B2;
@@ -84,40 +122,159 @@ p {
 #four-lobes{
   width: 730px;
   height: 520px;
+  display: block;
+  margin: 0 auto;
 }
 
 
 #frontal-lobe-image{
   width: 730px;
   height: 520px;
+  display: block;
+  margin: 0 auto;
 }
 
 #parietal-lobe-image{
   width: 730px;
   height: 520px;
+  display: block;
+  margin: 0 auto;
 }
 
 #temporal-lobe-image{
   width: 730px;
   height: 520px;
+  display: block;
+  margin: 0 auto;
 }
 
 #occipital-lobe-image{
   width: 730px;
   height: 520px;
+  display: block;
+  margin: 0 auto;
 }
 
 iframe{
-  width:560px;
-  height:315px;
+  display: block;
+  margin: 0 auto;
+  height: 315px;
+  width: 560px;
 }
 
-/* .list-group{
-  position: relative;
-  left:100px;
-  top:150px;
+
+@media screen and (max-width: 1200px){
+
+
+  iframe{
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  .frontal-lobe{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .stroop-task{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .temporal-lobe{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .parietal-lobe{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .occipital-lobe{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .primary-visual-cortex{
+    width:600px;
+  }
+
+  .brainstem-cerebellum{
+    display: block;
+    margin: 0 auto;
+
+  }
+
+    .list-group{
+      display: block;
+      margin: 0 auto;
+    }
+
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+
+  }
+
+@media screen and (max-width: 767px){
+
+iframe{
+  width: 100%;
+  height: 100%;
+}
+
+
+#frontal-lobe-button{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#parietal-lobe-button{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#temporal-lobe-button{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#occipital-lobe-button{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#brain-buttons{
+  flex-wrap: wrap;
+}
+
+
+
+
+
+/* @media screen and (max-width: 500px){
+  .container{
+    display: block;
+    margin: 0 auto;
+    background-color: #e9ecef;
+  }
 
 } */
+
+TO DO LIST
+-work on contact me page responsiveness
+-proof-read!
+-make jumbo look better??
+
+
+
 
 
   /* color: #0B67B2; */
@@ -125,21 +282,8 @@ iframe{
 
   /* color: #051D35; */
 
-/* @media (max-width: 992px) {
 
-.list-group{
 
-align-content: center;
 
-}
-
-}
-
-@media (max-width: 767px) {
-
-iframe{
-  width: 100%;
-  height: auto;
-} */
 
 }
