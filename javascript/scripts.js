@@ -45,6 +45,10 @@ $(function () {
 });
 
 $(function () {
+  $('#premotor-cortex').popover()
+});
+
+$(function () {
   $('#lesions').popover()
 });
 

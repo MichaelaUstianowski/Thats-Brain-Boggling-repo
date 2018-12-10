@@ -4,6 +4,7 @@ body{
 background-image: url("../images/background.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+padding-top:50px;
 }
 
 
@@ -15,6 +16,8 @@ background-size: cover;
 .container{
   background-color: white;
   padding:20px;
+  margin-top:-10px;
+  margin-bottom: -10px;
 
 }
 
@@ -165,6 +168,9 @@ iframe{
 
 @media screen and (max-width: 1200px){
 
+  #contact-form{
+    margin-bottom: 100%;
+  }
 
   iframe{
     display: block;
@@ -221,6 +227,10 @@ iframe{
 
 @media screen and (max-width: 767px){
 
+  #contact-form{
+    margin-bottom: 25%;
+  }
+
 iframe{
   width: 100%;
   height: 100%;
@@ -255,35 +265,7 @@ iframe{
   flex-wrap: wrap;
 }
 
-
-
-
-
-/* @media screen and (max-width: 500px){
-  .container{
-    display: block;
-    margin: 0 auto;
-    background-color: #e9ecef;
-  }
-
-} */
+}
 
 TO DO LIST
--work on contact me page responsiveness
 -proof-read!
--make jumbo look better??
-
-
-
-
-
-  /* color: #0B67B2; */
-
-
-  /* color: #051D35; */
-
-
-
-
-
-}
